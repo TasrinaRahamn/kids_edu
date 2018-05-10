@@ -1,0 +1,87 @@
+
+/**Extra small devices (portrait phones, less than 576px)**/
+ @media (min-width:320px) and (max-width:575px) { 
+    .feature_card{margin: 20px 0px;} 
+     
+    .common hr{width: 180px;}
+     
+    .desiration_img{ margin:20px 0px; }
+    .icon{
+             width: 80px;
+             margin-top: 20px;
+          }
+    .navbar-brand { margin-right: 0rem;}
+    .stand_blogs img{
+                    height: 200px;
+                    width: 144px;
+                   }
+    .foot_text p{ font-size: 18px;}
+    .desiration_img img{
+                    max-width: 420px;
+                    height: 300px;
+                    }
+    .foot_menu ul li a{
+                   font-size: 18px;
+                    padding: 0.5rem 0px;
+                    }
+}
+
+ /**Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) and (max-width:767px) { 
+  .feature_card{margin: 20px 0px;}  
+  .desiration_img{  margin:20px 0px; }
+  .icon{
+                width: 80px;
+                margin-top: 20px;
+        }
+    .work_section{margin-top: 200px; }
+    .dis_mar{ margin: 20px 0px; }
+    .instag{ margin-top: 300px;}
+    .giraf{ margin-top: 300px;}
+    .contact{ margin-top: 70px;}
+    .letter{ margin-top: 70px;}
+    .foot_menu ul li a{
+                    font-size: 18px;
+                    padding: 0.5rem 0.2rem;
+
+                    }
+    .foot_text p  { font-size: 18px;}
+}
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) and (max-width:991px) { 
+    .common_news h1 { font-size: 24px;}
+    .custom_mar{ margin-top: 20px;}
+    .custom_bor hr { width: 155px;}
+    .custom_bor h5 {font-size:14px; }
+    .blog_icon i {padding: 0px 2px;}
+    .instag_img img {
+                    max-width: 42px;
+                    height: 70px;
+                  }
+     .icon{
+                width: 80px;
+                margin-left: 25px;
+          }
+    .nav_text ul li a{font-size: 14px !important; }
+    .stand_blogs img{
+                height: 240px;
+                width: 160px;
+               }
+    .desiration_about img {margin-bottom: 20px; }
+    .foot_menu ul li a{
+                    font-size: 18px;
+                    padding: 0.5rem 0px;
+                }
+    .foot_text p{font-size: 18px;}
+}
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) and (max-width:1199px) { 
+    
+}
+
+/** Extra large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px)and (max-width:1450px) { 
+
+}

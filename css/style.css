@@ -1,0 +1,344 @@
+body{
+    background-position: center;
+    background-repeat: repeat;
+    background-image:url(../images/backcv.png);
+}
+.head_nav{
+    background-color: #FFD338;
+}
+.nav_text ul li a{
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Dosis', sans-serif;
+     border-radius: 15px;
+     transition: 1s;
+    padding: 0 12px !important;
+}
+.nav_text ul li a:hover{
+    background-color: red !important;
+}
+.icon i{
+    color: white;
+    margin-right: 10px;
+}
+.icon i:hover{
+    color: red !important;
+    border-radius: 15px;
+    transition: 1s;
+}
+.banner{
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../images/banner.png);
+    background-size: cover;
+}
+.banner_content h2{
+    color: #19BEFF;
+    padding-top: 290px;
+}
+.banner_scroll{
+    margin-top: 290px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    color: #bbbbbb;
+}
+.common h1{
+    font-size: 30px;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+}
+.common hr{
+    border: 3px dashed white;
+    width: 300px;
+}
+.common_news h1{
+    font-size: 25px;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+}
+.common_news hr{
+    border: 3px dashed white;
+    width: 220px;
+    margin-left: 0px;
+}
+.top_mar{
+    margin: 50px 0px;
+}
+.custom_bor hr{
+    border: 2px dotted;
+    width: 200px;
+    margin-left: 0px;
+}
+.desiration{
+    min-height: 500px;
+}
+.desiration_about h1{
+    font-size: 24px;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-transform: capitalize;
+}
+.desiration_about hr{
+    width: 160px;
+    margin-left: 0px;
+}
+.desiration_about p{
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    color: #333333;
+}
+.desiration_about img{
+    width: 200px;
+}
+.desiration_img img{
+    max-width: 480px;
+    height: 300px;
+}
+.education{
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../images/eduone.jpg);
+    background-size: cover;
+}
+.edu_img p{
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    color: #333333;
+}
+.feature_text img{
+    width: 865px;
+}
+//**card start **//
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+.profile {
+    position: absolute;
+    top: -34px;
+    right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.left_mar{
+    margin-left: 35px;
+}
+.icon_mar{
+    right: 20px;
+    position: absolute;
+    font-size: 20px;
+}
+.text-bold {
+    font-weight: 700;
+}
+
+//** card end **//
+.custom_btn{
+    border-radius: 25px;
+   
+}
+.moments{
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../images/grn.jpg);
+    background-size: cover; 
+}
+.moments_text hr{
+    width: 160px;
+
+}
+.moments_img img{
+    height: 200px;
+}
+.stand_data{
+    margin-top: 30px;
+}
+.stand_data i{
+    font-size: 50px;
+    color: deepskyblue;
+}
+.stand_data a{
+    color: deepskyblue !important;
+     font-size: 14px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+}
+.stand_data h6{
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    color: #333333;
+    line-height: 35px;
+}
+.stand_blogs{
+    margin: 20px 0px;
+}
+.media-body h5{
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+}
+.blog_icon{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.blog_icon i{
+    padding: 0px 7px;
+}
+.dark_blue{
+    color: #3F63FE;
+}
+.deep_blue{
+    color: deepskyblue;
+}
+.pink{
+    color: #F08D8F;
+}
+.navy_blue{
+  color: #3F5F80;
+}
+.follow{
+    font-size: 25px;
+}
+.work{
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../images/work.jpg);
+    background-size: cover;
+}
+.custom_text{
+    color:#59D17F !important;
+}
+.work_text h1{
+    margin-top: 80px;
+}
+.work_blog{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: white !important;
+}
+
+.text_colour{
+    color: white;
+    font-size: 20px;
+    line-height: .1;
+}
+.custom_img img{
+            height: 125px;
+}
+.events{
+    margin: 50px 0px;
+}
+.custom_media img{
+ height: 180px;   
+}
+.timeline_blogs ul li{
+    background-color: transparent;
+    border: none;
+}
+.custom_span{
+    padding:16px 16px;
+    font-size: 20px;
+
+}
+.dis_padding{
+    padding-left: 0px;
+}
+.contact_icon{
+    margin-top: 50px;
+}
+.giraf_text i{
+    margin-right: 12px;
+}
+.footer_head{
+    min-height: 465px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../images/footer.png);
+    background-size: cover;
+    margin-top: 20px;
+}
+.foot_mar{
+    margin-top: 160px;
+}
+.foot{
+    min-height: 50px;
+    background-color: #FFD338;
+}
+.foot_menu ul li a{
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.foot_text p{
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    margin-top: 16px;
+}
